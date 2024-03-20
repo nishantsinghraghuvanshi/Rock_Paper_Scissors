@@ -31,6 +31,7 @@ function game(word){
     comp_out = all[num]
     winner(word,comp_out)
     console.log(result_final)
+    const text_w = document.getElementById("result");
+    text_w.innerHTML = `Result : ${result_final}`;
+
 }
-const text_w = document.getElementById("result");
-text_w.textContent = `Result : ${result_final}`;
